@@ -98,7 +98,7 @@ const Signup = () => {
         type="password"
         label="Password"
         name="password"
-        placeholder="password1234"
+        placeholder="Your Password"
         value={input.password}
         onChange={handleOnChange}
         error={error.password}
@@ -129,7 +129,7 @@ const Signup = () => {
         </div>
         <div className={styles.textContainer}>
           <Button
-            label="Password"
+            label="Reset Password"
             className={`btn-black-fill ${styles.linkButton}`}
             onClick={() => history.push(path.resetPassword)}
           />
